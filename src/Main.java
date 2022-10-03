@@ -2,13 +2,10 @@ public class Main {
     public static void main(String[] args) {
         //Задание 1
         System.out.println("Задание 1");
-        byte age = 18;
+        byte age = 17;
         if (age >= 18) {
             System.out.println("Поздравляем вас с совершеннолетием!");
-        }
-
-
-        if (age < 18) {
+        } else {
             System.out.println("Возраст совершеннолетия ещё не наступил, и нужно немного подождать.");
         }
 
@@ -38,5 +35,8 @@ public class Main {
         if (commonToday >= seat && commonToday <common) {
             System.out.println("В вагоне есть стоячее место");
         }
+        //Задание 4
+        System.out.println("Задание 4");
+        // смотреть ветку Hm4 в задание 1 изменила
 
     }}
