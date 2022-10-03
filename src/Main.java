@@ -11,14 +11,13 @@ public class Main {
 
         //Задание 2
         System.out.println("Задание 2");
-        byte ageChildren = 24;
+        byte ageChildren = 25;
         if (ageChildren >= 7 && ageChildren < 18) {
             System.out.println("Ребенок ходит в школу!");
         }
         if (ageChildren >= 18 && ageChildren < 24) {
             System.out.println("Человек закончил школу и может отправляться в университет");
-        }
-        if (ageChildren >= 24) {
+        } else {
             System.out.println("Человек окончил университет и ему пора искать первую работу");
         }
         //Задание 3
@@ -36,7 +35,9 @@ public class Main {
             System.out.println("В вагоне есть стоячее место");
         }
         //Задание 4
-        System.out.println("Задание 4");
-        // смотреть ветку Hm4 в задание 1 изменила
+        System.out.println("Задание 4 смотреть ветку Hm4 в задание 1 изменила");
+
+        //Задание 5
+        System.out.println("Задание 5 смотреть ветку Hm4 в задание 2 изменила");
 
     }}
