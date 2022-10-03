@@ -24,5 +24,19 @@ public class Main {
         if (ageChildren >= 24) {
             System.out.println("Человек окончил университет и ему пора искать первую работу");
         }
-    }
-}
+        //Задание 3
+        System.out.println("Задание 3");
+        short common = 102;
+        short seat = 60;
+        short commonToday = 49;
+        if (commonToday > common) {
+            System.out.println("Вагон уже полностью забит!");
+        }
+        if (commonToday < seat) {
+            System.out.println("В вагоне есть сидячее место");
+        }
+        if (commonToday >= seat && commonToday <common) {
+            System.out.println("В вагоне есть стоячее место");
+        }
+
+    }}
