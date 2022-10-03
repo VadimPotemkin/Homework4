@@ -24,15 +24,14 @@ public class Main {
         System.out.println("Задание 3");
         short common = 102;
         short seat = 60;
-        short commonToday = 49;
-        if (commonToday > common) {
-            System.out.println("Вагон уже полностью забит!");
-        }
-        if (commonToday < seat) {
+        short commonToday = 59;
+            if (commonToday < seat) {
             System.out.println("В вагоне есть сидячее место");
         }
         if (commonToday >= seat && commonToday <common) {
             System.out.println("В вагоне есть стоячее место");
+        } else {
+            System.out.println("Вагон уже полностью забит!");
         }
         //Задание 4
         System.out.println("Задание 4 смотреть ветку Hm4 в задание 1 изменила");
@@ -40,4 +39,6 @@ public class Main {
         //Задание 5
         System.out.println("Задание 5 смотреть ветку Hm4 в задание 2 изменила");
 
+        //Задание 6
+        System.out.println("Задание 6 смотреть ветку Hm4 в задание 3 изменила");
     }}
