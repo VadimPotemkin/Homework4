@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        //Задание 1
+        System.out.println("Задание 1");
         byte age = 18;
         if (age >= 18) {
             System.out.println("Поздравляем вас с совершеннолетием!");
@@ -8,6 +10,19 @@ public class Main {
 
         if (age < 18) {
             System.out.println("Возраст совершеннолетия ещё не наступил, и нужно немного подождать.");
+        }
+
+        //Задание 2
+        System.out.println("Задание 2");
+        byte ageChildren = 24;
+        if (ageChildren >= 7 && ageChildren < 18) {
+            System.out.println("Ребенок ходит в школу!");
+        }
+        if (ageChildren >= 18 && ageChildren < 24) {
+            System.out.println("Человек закончил школу и может отправляться в университет");
+        }
+        if (ageChildren >= 24) {
+            System.out.println("Человек окончил университет и ему пора искать первую работу");
         }
     }
 }
